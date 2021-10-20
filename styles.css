@@ -34,7 +34,7 @@ ul{
 }
 
 li{
-   /* width: 200px;*/
+   width: 200px;
     text-decoration: none;
 }
 h1{
@@ -49,6 +49,7 @@ p{
 .subtext{
     font-size: 15px;
     font-weight: 300;
+    color: blue;
 
 
 }
@@ -72,6 +73,7 @@ p{
     font-size: 20px;
     padding-top:5px ;
     margin-top: 20px;
+   
 }
 button:hover{
     background-color: #ef744b;
@@ -131,6 +133,14 @@ margin: 10px;
     flex-wrap: wrap;
 
 }
+#contact-me{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sub-section{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 }
 .project-image{
@@ -187,5 +197,13 @@ a{
 .par{
     margin-top: 25px;
     margin-left: 25px;
-    
+
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
 }
