@@ -46,10 +46,11 @@ p{
     font-weight: 300;
     font-size: 30px;
 }
+
 .subtext{
     font-size: 15px;
     font-weight: 300;
-    color: blue;
+    
 
 
 }
@@ -154,10 +155,7 @@ hr{
     margin-left:20px ;
     margin-right: 20px;
 }
-a{
-    text-decoration: none;
-    color: white;
-}
+
 .hamberger{
     display: none;
 
@@ -206,4 +204,7 @@ a{
 .nav-list{
     display: flex;
     justify-content: flex-end;
+}
+.view{
+    color: blueviolet;
 }
